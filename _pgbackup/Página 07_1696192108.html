@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" data-pgc-master="master.html">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>PM1</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap_theme/bootstrap.css" rel="stylesheet" type="text/css">
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bruno+Ace&display=swap">
+        <script>/* Pinegrow Interactions, do not remove */ (function(){try{if(!document.documentElement.hasAttribute('data-pg-ia-disabled')) { window.pgia_small_mq=typeof pgia_small_mq=='string'?pgia_small_mq:'(max-width:767px)';window.pgia_large_mq=typeof pgia_large_mq=='string'?pgia_large_mq:'(min-width:768px)';var style = document.createElement('style');var pgcss='html:not(.pg-ia-no-preview) [data-pg-ia-hide=""] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show=""] {opacity:1;visibility:visible;display:block;}';if(document.documentElement.hasAttribute('data-pg-id') && document.documentElement.hasAttribute('data-pg-mobile')) {pgia_small_mq='(min-width:0)';pgia_large_mq='(min-width:99999px)'} pgcss+='@media ' + pgia_small_mq + '{ html:not(.pg-ia-no-preview) [data-pg-ia-hide="mobile"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="mobile"] {opacity:1;visibility:visible;display:block;}}';pgcss+='@media ' + pgia_large_mq + '{html:not(.pg-ia-no-preview) [data-pg-ia-hide="desktop"] {opacity:0;visibility:hidden;}html:not(.pg-ia-no-preview) [data-pg-ia-show="desktop"] {opacity:1;visibility:visible;display:block;}}';style.innerHTML=pgcss;document.querySelector('head').appendChild(style);}}catch(e){console&&console.log(e);}})()</script>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baumans&display=swap">
+    </head>
+    <body>
+        <nav class="navbar navbar-light navbar-expand-lg sticky-top bg-primary" style="margin-bottom: 10px;box-shadow: 0px 10px 17px;" data-pgc-field="barra">
+            <div class="container-fluid">
+                <div class="align-content-start align-items-center align-items-md-center class=&quot;align-items-xl-center container-fluid d-flex d-md-flex justify-content-md-center justify-content-start justify-content-xl-center&quot;">
+                    <button class="align-items-center border border-2 border-dark btn btn-primary d-flex justify-content-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#MenuLateral" aria-controls="offcanvasWithBothOptions" style="margin-right: 11px; padding: 2px; padding-right: 2px; padding-left: 2px; background-color: #640af4;" id="BotonMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <h5 class="fw-bold text-bg-primary text-dark" style="--bs-secondary: #7801c8; --bs-secondary-rgb: 120,1,200; margin-bottom: 0px; padding-left: 0px; font-family: 'Baumans', cursive; margin-top: 10px;" data-pgc="Cápitulo" data-pgc-field="Cap">PM1 - Medidas de tendencia central - Datos agrupados</h5>
+                </div>
+            </div>
+        </nav>
+        <div class="container-md &quot;border border-2 border-dark rounded-5&quot;" style="padding-right: 15px; padding-left: 15px; border: 3px solid #000000; border-radius: 5px; box-shadow: 0px 0px 17px; margin-bottom: 20px;" data-pgc-field="Contenido">
+            <p style="text-align: justify; margin-top: 16px; padding: 20px; padding-top: 15px; padding-bottom: 15px; margin-bottom: 0px; border-top-color: var(--bs-blue); border-left-color: var(--bs-blue); border-right-color: var(--bs-blue); border-bottom-color: var(--bs-blue); border-style: none;" data-pgc="Parrafo" data-pgc-field="Contenido"><span class="text-bg-primary d-flex" style="border: 6px inset var(--bs-yellow); font-weight: bold; padding-left: 10px; padding-right: 10px; font-family: 'Bruno Ace', cursive;" data-pgc="Cabecera 1" data-pgc-field="Contenido">Medidas de tendencia central - Datos agrupados&nbsp;</span>El término <b>datos agrupados</b> se refiere a cuando tenemos los datos divididos por <b>clases </b>y contamos únicamente con la <b>frecuencia </b>de cada una de ellas, es decir, cuando tenemos una <b>tabla de frecuencias</b>. En esta sección se explican tres <b class="">medidas de tendencia central</b> para datos agrupados: la <b>media</b>, la <b>mediana </b>y la <b>moda aproximadas</b>.<br><br><br><span class="negritaMorado" style="font-family: 'Bruno Ace', cursive;" data-pgc="Cabecera 2" data-pgc-field="Contenido">Media aritmética aproximada</span><br>La <span class="negritaAzul">media aritmética aproximada</span> se obtiene al sumar todos los productos de la <b>frecuencia </b>por la <b>marca de clase</b> y dividir entre el <b>total de datos</b>, es decir,<br> <br class=""><span style="background-color: #fdcf03; box-shadow: 5px 5px 5px #7f03ff; border: 2px solid #000000; padding: 60px 20px 20px; color: #0029fc;" class="" data-pgc="Fórmulas" data-pgc-field="Contenido">\(\displaystyle {\bar{x}}_{a} = \frac{\underset{i = 1}{\overset{n}{\sum }}\left({f}_{ai} \cdot {x}_{i}\right)}{n}&nbsp;\)</span><br><br><b>Donde:</b><br>\(\bar {x}_a\) es la media aproximada.<br>\({f}_{ai}\) es la frecuencia absoluta de la clase en la posición \(i\). <br>\(x_i\) es la marca de clase en la posición \(i\).<br>\(n\) es el número de observaciones. <br><br><br><span class="negritaMorado" style="font-family: 'Bruno Ace', cursive;" data-pgc="Cabecera 2" data-pgc-field="Contenido">Mediana aproximada</span><br>Por su parte, la <b class="negritaAzul">mediana aproximada</b> es:</p>
+            <ul style="padding-left: 80px;">
+                <li>La marca de clase que esté en la posición \(\displaystyle \left(\frac{n+1}{2}\right)\), si el número de datos \((n)\) es impar.</li>
+                <li>O bien, el promedio de las marcas de clase ubicadas en los lugares \(\displaystyle \left(\frac{n}{2}\right)\) y \(\displaystyle \left( \frac {n}{2}+1\right)\), si el número de datos \((n)\) es par.</li>
+            </ul>
+            <p style="text-align: justify; margin-top: 16px; padding: 20px; padding-top: 15px; padding-bottom: 15px; margin-bottom: 0px; border-top-color: var(--bs-blue); border-left-color: var(--bs-blue); border-right-color: var(--bs-blue); border-bottom-color: var(--bs-blue); border-style: none;" data-pgc="Parrafo" data-pgc-field="Contenido"><br><span class="negritaMorado" style="font-family: 'Bruno Ace', cursive;" data-pgc="Cabecera 2" data-pgc-field="Contenido">Moda aproximada</span><br>Finalmente, la <span class="negritaAzul">moda aproximada</span> es la <b>marca de clase</b> con la <b>frecuencia </b>más alta.<br><br>En un conjunto de datos se puede presentar el caso que haya dos <b>modas</b>, lo que se llama distribución <b class="negritaAzul">bimodal</b>. Si tiene más de dos <b>modas</b>, recibe el nombre de <b class="negritaAzul">multimodal</b>.</p>
+            <p class="bg-opacity-25" style="text-align: justify; margin-top: 16px; padding: 20px; padding-top: 15px; padding-bottom: 15px; margin-bottom: 0px; background-color: rgba(82, 197, 255, 0.52); border-top-color: var(--bs-blue); border-left-color: var(--bs-blue); border-right-color: var(--bs-blue); border-bottom-color: var(--bs-blue); border-style: none;" data-pgc="Parrafo ejemplos" data-pgc-field="Contenido"><span class="negritaRoja">Ejemplo.</span>&nbsp;Se entrevistó a 20 jóvenes para conocer qué cantidad (en litros) de refresco de cola beben al día. Los resultados son éstos:<br><br><img src="assets/Imagenes/medidas-de-dispersion-6.webp" class="img-fluid" width="560" style="margin-bottom: 10px; border: 3px solid #000000; box-shadow: 10px 10px 10px 1px #000000; width: 45ex;"><br><br>A continuación se presenta la <b>tabla de frecuencias</b> y el <b>histograma </b>correspondiente a las cantidades consumidas de refresco de cola:<br><br><img src="assets/Imagenes/Tendencia%20central%20agrupados%201.JPG" class="img-fluid" width="560" style="margin-bottom: 10px; border: 3px solid #000000; box-shadow: 10px 10px 10px 1px #000000; width: 70ex;"><br><br><img src="assets/Imagenes/Tendencia%20central%20agrupados%202.JPG" class="img-fluid" width="560" style="margin-bottom: 10px; border: 3px solid #000000; box-shadow: 10px 10px 10px 1px #000000; width: 60ex;"><br><br>Con esta información, calcula las <b>medidas de tendencia central</b>.  ¿A qué conclusiones llegas?<br><br><b>Solución</b><br>Para la <b>media aproximada</b>:<br><br><img src="assets/Imagenes/Tendencia%20central%20agrupados%203.JPG" class="img-fluid" width="560" style="margin-bottom: 10px; border: 3px solid #000000; box-shadow: 10px 10px 10px 1px #000000; width: 50ex;"><br><br>\(\displaystyle \bar{x}_{a} = \frac{\underset{i = 1}{\overset{n}{\sum }}\left({f}_{ai} \cdot {x}_{i}\right)}{n} \)<br><br>\(\displaystyle \bar{x}_{a} = \frac{24.3385}{20} \)<br><br>\(\displaystyle \bar{x}_{a} = 1.2169 \)<br><br>Lo que indica que una persona bebe, en promedio, \(1.2169 \,litros\).<br><br>Para la <b>mediana aproximada</b>, como el tamaño de la muestra es un número par \((n = 20)\), entonces&nbsp; la <b>mediana </b>se encuentra entre \((20/2)\) y \((20/2+1)\), es decir, en la posición \(10.5\). Nos fijamos en la columna de la <b>frecuencia acumulada</b>, donde se encuentra el \(10.5\):<br><br><img src="assets/Imagenes/Tendencia%20central%20agrupados%204.JPG" class="img-fluid" width="560" style="margin-bottom: 10px; border: 3px solid #000000; box-shadow: 10px 10px 10px 1px #000000; width: 65ex;"><br><br>Entonces<br><br>\(\displaystyle x_{mediana}=\frac{1.0313+1.4438}{2}=1.2375\)<br><br>lo que indica que \(50\%\) de las personas beben menos (o más) de \(1.2375\, litros\).<br><br>Para la <b>moda</b>, como es la <b>marca de clase</b> con mayor <b>frecuencia absoluta</b>, entonces la cantidad típica consumida de refresco es de \(1.8563\, litros\).&nbsp;<br></p>
+            <div class="bg-white border border-2 border-dark container d-flex flex-row flex-wrap justify-content-evenly  rounded rounded-4" style="background: radial-gradient(var(--bs-white) 0%, var(--bs-blue) 98%); padding-top: 10px; margin-top: 20px; margin-bottom: 10px;" data-pgc="Recursos" data-pgc-field="Contenido">
+                <a href="https://www.youtube.com/watch?v=fOuRqk1nzgY&list=PLeySRPnY35dFkzBgleLJ5WVFbGdkmCik5" target="_blank" data-pgc="Recursos imagen" data-pgc-field="Contenido"> <img src="assets/Imagenes/medidas-de-tc-14.webp" class="img-fluid" width="560" style="margin-bottom: 10px;"></a><a href="https://www.youtube.com/watch?v=hLmsEFNaOgY&list=PLeySRPnY35dE25b7mIEUlsMCQqlhJFhyG" target="_blank" data-pgc="Recursos imagen" data-pgc-field="Contenido"> <img src="assets/Imagenes/medidas-de-dispersion-7.webp" class="img-fluid" width="560" style="margin-bottom: 10px;"></a>
+            </div>
+        </div>         
+        <div class="container offcanvas offcanvas-start text-bg-primary" tabindex="-1" data-bs-scroll="true" id="MenuLateral" aria-labelledby="offcanvasWithBothOptionsLabel" data-pgc="Menu">
+            <div class="align-content-start align-items-center align-items-md-center class=&quot;align-items-xl-center container-fluid d-flex d-md-flex justify-content-md-center justify-content-start justify-content-xl-center&quot;" style="flex-wrap: wrap;">
+                <h5 class="fw-bold text-bg-primary text-dark" style="--bs-secondary: #7801c8; --bs-secondary-rgb: 120,1,200; margin-bottom: 0px; padding-left: 0px; font-family: 'Baumans', cursive; margin-top: 10px;" data-pgc="Cápitulo" data-pgc-field="Cap">Menú</h5>
+            </div>
+            <div class=" offcanvas-body">
+                <p style="text-align: justify; padding: 0px; padding-top: 0px; padding-bottom: 0px; border-radius: 3px; box-shadow: 0px 0px 17px var(--bs-blue); margin-bottom: 0px; background: var(--bs-indigo); padding-left: 10px; margin-top: 5px; border: 3px solid var(--bs-black);"><strong>Estadística</strong></p>
+                <ul> <a href="Página 01.html"><li class="text-white">Fundamentos de estadistíca</li></a>
+                    <a href="Página 02.html"> <li class="text-white">Recolección de datos</li></a>
+                    <li>Presentación de datos</li>
+                    <ul><a href="Página 03.html"> <li class="text-white">Distribución de frecuencias</li></a><a href="Página 04.html"> <li class="text-white">Histograma, Polígono de frecuencias, Ojiva</li></a><a href="Página 05.html"> <li class="text-white">Diagrama de barras, Diagrama circular</li></a>
+                    </ul>
+                    <li>Medidas de tendencia central</li>
+                    <ul><a href="Página 06.html"> <li class="text-white">Datos no agrupados</li></a><a href="Página 07.html"> <li class="text-white">Datos agrupados</li></a>
+                    </ul>
+                    <li>Medidas de dispersión</li>
+                    <ul><a href="Página 08.html"> <li class="text-white">Datos no agrupados</li></a><a href="Página 09.html"> <li class="text-white">Datos agrupados</li></a>
+                    </ul>
+                </ul>
+            </div>
+        </div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/popper.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="pgia/lib/pgia.js"></script>
